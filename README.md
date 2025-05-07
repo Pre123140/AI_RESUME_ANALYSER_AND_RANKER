@@ -1,11 +1,11 @@
-# 🧠 AI Resume Analyzer & Ranker (Local GenAI + RAG + Streamlit)
+# AI Resume Analyzer & Ranker (Local GenAI + RAG + Streamlit)
 
 
 An end-to-end, offline, privacy-first tool that empowers users to analyze, rank, and optimize resumes against job descriptions using Retrieval-Augmented Generation (RAG), local LLMs (like Mistral), and traditional NLP methods. Built for job seekers, recruiters, and AI researchers, this app goes beyond basic keyword matching and delivers AI-generated improvement insights, intelligent querying, and batch processing support.
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 - Enable **private and smart resume analysis** using GenAI, without sending data to external servers.
 - Offer **explainable scoring** and detailed improvement suggestions.
 - Support **batch resume screening** and ranking for recruiters.
@@ -13,7 +13,7 @@ An end-to-end, offline, privacy-first tool that empowers users to analyze, rank,
 
 ---
 
-## 🚀 Features
+## Features
 
 - ✅ Real-time resume scoring using TF-IDF + cosine similarity
 - ✅ Local LLM (Mistral via Ollama) for AI-driven feedback and suggestions
@@ -25,7 +25,7 @@ An end-to-end, offline, privacy-first tool that empowers users to analyze, rank,
 
 ---
 
-## 🧠 Conceptual Study
+## Conceptual Study
 Want to explore the thought process behind this solution?
 👉 [Read the Full Conceptual Study →](https://github.com/Pre123140/AI_Resume_Analyzer_Ranker/blob/main/AI_Resume_Analyzer_Ranker.pdf)
 
@@ -38,7 +38,7 @@ Includes:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - `Streamlit` – Web UI
 - `LangChain` – RAG and prompt orchestration
@@ -53,7 +53,7 @@ Includes:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 AI_Resume_Analyzer_Ranker/
 ├── data/                         # (Optional) Sample resumes and JDs
@@ -73,19 +73,19 @@ AI_Resume_Analyzer_Ranker/
 
 ---
 
-## ⚙️ How to Run the Project
+## How to Run the Project
 
-### 1. 📦 Install Dependencies
+### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. ⚙️ Start Ollama with Mistral Model
+### 2.  Start Ollama with Mistral Model
 ```bash
 ollama run mistral
 ```
 
-### 3. 🚀 Launch the App
+### 3.  Launch the App
 ```bash
 cd src/
 streamlit run ui2.py
@@ -98,19 +98,19 @@ python batch_ranker.py
 
 ---
 
-## 📊 Key Functional Modules
+## Key Functional Modules
 
-### 🔍 Resume Scoring
+### Resume Scoring
 - TF-IDF + cosine similarity
 - Extracts job-relevant matches
 - Generates improvement feedback via LLM
 
-### 💬 Resume Q&A
+### Resume Q&A
 - Upload resume → ask questions like:
   > "What are the candidate's top 3 technical skills?"
 - Uses RAG: FAISS vector index + Mistral LLM
 
-### 🗂️ Batch Resume Ranking
+### Batch Resume Ranking
 - Upload folder of resumes + 1 JD
 - Score each resume
 - Generate personalized feedback PDFs
@@ -118,7 +118,7 @@ python batch_ranker.py
 
 ---
 
-## 📥 Deliverables
+## Deliverables
 - ✅ Resume Match Score
 - ✅ Extracted Matching Keywords
 - ✅ Persona-Based Suggestions
@@ -128,19 +128,19 @@ python batch_ranker.py
 
 ---
 
-## 🧭 Potential Next Steps
-- 📊 CSV summary of batch rankings
-- 🧑‍💼 Role-specific resume templates
-- 💬 Simulated Interview Q&A module
-- 📤 Export to JSON/XML (ATS compatible)
-- 📡 Email/Slack alert integration
+##  Potential Next Steps
+- CSV summary of batch rankings
+- Role-specific resume templates
+- Simulated Interview Q&A module
+- Export to JSON/XML (ATS compatible)
+- Email/Slack alert integration
 
 ---
-## 📜 License
+##  License
 
 This project is open for educational use only. For commercial deployment, contact the author.
 
 ---
 
-## 📬 Contact
+## Contact
 If you'd like to learn more or collaborate on projects or other initiatives, feel free to connect on [LinkedIn](https://www.linkedin.com/in/prerna-burande-99678a1bb/) or check out my [portfolio site](https://youtheleader.com/).
