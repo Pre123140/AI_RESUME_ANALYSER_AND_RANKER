@@ -67,7 +67,6 @@ AI_Resume_Analyzer_Ranker/
 │   ├── pdf_generator_feedback.py  # Feedback PDF writer
 │   ├── batch_ranker.py            # Batch scoring
 │   ├── vector_search.py           # FAISS embeddings
-├── README.md
 ├── requirements.txt
 ```
 
