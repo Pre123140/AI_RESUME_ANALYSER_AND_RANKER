@@ -1,0 +1,15 @@
+streamlit
+langchain
+scikit-learn
+pymupdf
+docx2txt
+pandas
+numpy
+fpdf
+faiss-cpu
+pdf2image
+easyocr
+matplotlib
+nltk
+sentence-transformers
+tk
