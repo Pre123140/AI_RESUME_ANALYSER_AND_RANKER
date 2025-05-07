@@ -27,7 +27,7 @@ An end-to-end, offline, privacy-first tool that empowers users to analyze, rank,
 
 ## Conceptual Study
 Want to explore the thought process behind this solution?
-👉 [Read the Full Conceptual Study →](https://github.com/Pre123140/AI_Resume_Analyzer_Ranker/blob/main/AI_Resume_Analyzer_Ranker.pdf)
+👉 [Read the Full Conceptual Study →](https://github.com/Pre123140/AI_RESUME_ANALYSER_AND_RANKER/blob/main/AI_RESUME_ANALYSER_%26_RANKER.pdf)
 
 Includes:
 - Architecture breakdown
